@@ -1,7 +1,4 @@
 import React from 'react'
-import sunImage from "../Assets/sun.png";
-import {AiOutlineArrowUp} from "react-icons/ai";
-import {AiOutlineArrowDown} from "react-icons/ai";
 import {TbTemperature} from "react-icons/tb";
 import {FiSun} from "react-icons/fi";
 import {BsSunset} from "react-icons/bs";

@@ -1,5 +1,4 @@
 import React from 'react'
-import sunImage from "../Assets/sun.png";
 import { iconUrlFromCode } from '../Services/weatherService';
 
 function Forecast({ title, items }) {

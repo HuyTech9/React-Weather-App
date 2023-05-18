@@ -1,11 +1,9 @@
 import './App.css';
-import UilReact from '@iconscout/react-unicons/icons/uil-react';
 import TopButton from './components/TopButton';
 import Inputs from './components/Inputs';
 import TimesAndLocations from './components/TimesAndLocations';
 import TemperatureAndDetail from './components/TemperatureAndDetail';
 import Forecast from './components/Forecast';
-import getWeatherData from './Services/weatherService';
 import getFormattedWeatherData from './Services/weatherService';
 import { useEffect, useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
@@ -59,7 +57,7 @@ function App() {
       </div>
     )}
 
-    <ToastContainer autoClose={5000} them="colored" newestOnTop ={true} />
+    <ToastContainer autoClose={1500} them="colored" newestOnTop ={true} />
 
    </div>
   );
