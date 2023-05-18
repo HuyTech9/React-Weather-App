@@ -8,7 +8,7 @@ function TopButton ({setQuery}) {
         },
         {
             id:2,
-            title: "New York",
+            title: "Ha Noi",
         },
         {
             id:3,
